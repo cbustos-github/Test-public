@@ -68,7 +68,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: CONJUR_APPLIANCE_URL
-              value: "https://conjur-follower.conjur-follower.svc.cluster.local" # Should be the FQDN of the AUTHN_URL of line 48
+              value: "https://conjur-follower.conjur-follower.svc.cluster.local/" # Should be the FQDN of the AUTHN_URL of line 48
             - name: CONJUR_ACCOUNT
               value: conjur-test
             - name: CONJUR_AUTHN_TOKEN_FILE
